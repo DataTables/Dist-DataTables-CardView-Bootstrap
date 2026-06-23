@@ -1,0 +1,18 @@
+{
+    "js": [
+        "js/cardView.bootstrap.js",
+        "js/cardView.bootstrap.min.js",
+        "js/cardView.bootstrap.min.mjs",
+        "js/cardView.bootstrap.mjs"
+    ],
+    "css": [
+        "css/cardView.bootstrap.css",
+        "css/cardView.bootstrap.min.css"
+    ],
+    "types": [
+        "types/cardView.bootstrap.d.ts"
+    ],
+    "src-repo": "http://github.com/DataTables/CardView",
+    "last-tag": "null",
+    "last-sync": ""
+}
