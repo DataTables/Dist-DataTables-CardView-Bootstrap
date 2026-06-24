@@ -1,4 +1,4 @@
-/*! CardView Bootstrap 3 styling 0.0.1 for DataTables
+/*! CardView Bootstrap 3 styling 1.0.0-dev for DataTables
  * Copyright (c) SpryMedia Ltd - https://datatables.net/license/plus
  */
 
