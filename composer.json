@@ -1,6 +1,6 @@
 {
     "name": "datatables.net/datatables.net-cardview-bs",
-    "description": "CardView for DataTables with styling for [Bootstrap](https://getbootstrap.com/docs/3.3/)",
+    "description": "CardView for DataTables with styling for Bootstrap",
     "support": {
         "forum": "https://datatables.net/forums"
     },

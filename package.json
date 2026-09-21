@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-cardview-bs",
     "description": "CardView for DataTables with styling for [Bootstrap](https://getbootstrap.com/docs/3.3/)",
-    "main": "js/cardView.bootstrap.js",
-    "module": "js/cardView.bootstrap.mjs",
-    "style": "css/cardView.bootstrap.css",
+    "main": "./js/cardView.bootstrap.js",
+    "module": "./js/cardView.bootstrap.mjs",
+    "style": "./css/cardView.bootstrap.css",
     "types": "./types/cardView.bootstrap.d.ts",
     "version": "1.0.3",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "Cards",
@@ -31,5 +30,24 @@
     },
     "homepage": "https://datatables.net",
     "bugs": "https://datatables.net/forums",
-    "license": "SEE LICENSE IN License.txt"
+    "license": "SEE LICENSE IN License.txt",
+    "exports": {
+        ".": {
+            "types": "./types/cardView.bootstrap.d.ts",
+            "import": "./js/cardView.bootstrap.mjs",
+            "default": "./js/cardView.bootstrap.mjs",
+            "require": "./js/cardView.bootstrap.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/cardView.bootstrap.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }
