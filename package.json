@@ -5,7 +5,7 @@
     "module": "./js/cardView.bootstrap.mjs",
     "style": "./css/cardView.bootstrap.css",
     "types": "./types/cardView.bootstrap.d.ts",
-    "version": "1.0.3",
+    "version": "1.1.0",
     "files": [
         "js",
         "css",
@@ -21,8 +21,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-cardview": "1.0.3",
-        "datatables.net-bs": "^3"
+        "datatables.net-cardview": "1.1.0",
+        "datatables.net-bs": "^3.1"
     },
     "author": {
         "name": "SpryMedia Ltd",
