@@ -34,9 +34,10 @@
     "exports": {
         ".": {
             "types": "./types/cardView.bootstrap.d.ts",
+            "style": "./css/cardView.bootstrap.css",
             "import": "./js/cardView.bootstrap.mjs",
-            "default": "./js/cardView.bootstrap.mjs",
-            "require": "./js/cardView.bootstrap.js"
+            "require": "./js/cardView.bootstrap.js",
+            "default": "./js/cardView.bootstrap.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
